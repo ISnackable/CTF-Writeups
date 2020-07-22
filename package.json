@@ -1,0 +1,26 @@
+{
+  "name": "ctf-writeups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISnackable/CTF-Writeups.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ISnackable/CTF-Writeups/issues"
+  },
+  "homepage": "https://github.com/ISnackable/CTF-Writeups#readme"
+}
