@@ -1,7 +1,7 @@
 module.exports = {
     title: 'ISnackable',
     description: 'A place to share my writeups',
-    base: '/CTF-Writeups/',
+    base: '/',
     theme: 'yuu',
     themeConfig: {
         nav: [
