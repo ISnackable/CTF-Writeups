@@ -4,8 +4,8 @@
 
 ### [Web-1] No Time
 
-![No Time](/images/No_Time.png)
-![No Time Source Code](/images/No_Time_2.png)
+![No Time](./images/No_Time.png)
+![No Time Source Code](./images/No_Time_2.png)
 
 We were given a website that has a countdown, viewing the page source and the flag was in a comment
 
@@ -25,8 +25,8 @@ Google "UnduplicitousCorp" result in a Youtube Channel. Flag was found at about 
 
 ### [Web-2] VulnLogin
 
-![Vuln Login Page](/images/Vuln_Login.png)
-![Vuln Login Function](/images/Vuln_Login_2.png)
+![Vuln Login Page](./images/Vuln_Login.png)
+![Vuln Login Function](./images/Vuln_Login_2.png)
 
 Login code was client sided at js/login.js. The code seems to use md5, finding the reverse lookup of the hashes and obtain the username and password
 flag format is CDDC20{username_password}
@@ -37,21 +37,21 @@ Flag can be found in the slack text channel
 
 ### [OSINT-2] Fun with File Extensions
 
-![OSINT-2 PDF File](/images/OSINT2.png)
+![OSINT-2 PDF File](./images/OSINT2.png)
 
 Download Organisation_Chart.pdf found in the website. Opening this pdf file in photoshop allow you to extract the flag image.
 
 ::: details Click me to view the flag 🚩
-![OSINT-2 Flag](/images/OSINT2Flag.png)
+![OSINT-2 Flag](./images/OSINT2Flag.png)
 :::
 
 ### [Forensics-1] Can't See A Thing
 
-![img](/images/img.jpg)
+![img](./images/img.jpg)
 
 Flag can be found in the comment metadata of the image. Can be view by right clicking img.jpg > Properties > Details > Comments. Mirror the text to obtain the flag.
 
-![Forensics 1 Flag](/images/Forensics-1_Flag.png)
+![Forensics 1 Flag](./images/Forensics-1_Flag.png)
 
 ::: details Click me to view the flag 🚩
 CDDC20{pho70gr4phy_i5_aw3sOmE}
@@ -106,7 +106,7 @@ Execute the binary and feed the key
 
 ### [Crypto-3] Iffy Glyphs
 
-![Dancing Men Cipher](/images/what_is_this.png)
+![Dancing Men Cipher](./images/what_is_this.png)
 
 Reverse Search Image in Yandex reveal that this is a Dancing Men Cipher. Decrypt the image to obtain the flag.
 
@@ -143,8 +143,8 @@ CDDC20{AAAABBBB-Oh~YouLeakedIt-CCCCDDDD}
 
 ### Visual Noise
 
-![Visual Noise 1](/images/Visual_Noise.png)
-![Visual Noise 2](/images/Visual_Noise_2.png)
+![Visual Noise 1](./images/Visual_Noise.png)
+![Visual Noise 2](./images/Visual_Noise_2.png)
 
 Use different image checker.
 [https://www.diffchecker.com/diff](https://www.diffchecker.com/diff)
@@ -161,7 +161,7 @@ CDDC20{V1suA1_CrYPT0_iS_s0_53cuRE}
 
 ### How QueeR...
 
-![Maxicode](/images/barcode.gif)
+![Maxicode](./images/barcode.gif)
 
 A Maxicode QR Code, invert the image and use online decoder
 
@@ -171,18 +171,18 @@ A Maxicode QR Code, invert the image and use online decoder
 
 We were given a website where we can upload GIF
 
-![Ma GIF Website](/images/Ma_GIF.png)
+![Ma GIF Website](./images/Ma_GIF.png)
 
 The website has File Upload Vulnerability, you are able to upload a simple backdoor code by modifying the Content-Type header.
 
-![Ma GIF Upload](/images/Ma_GIF_2.png)
+![Ma GIF Upload](./images/Ma_GIF_2.png)
 
 ```bash
 <?php echo "</pre>"; system($_GET['cmd']); ?>
 ```
 After uploading the backdoor, we can execute our commands in the url.
 
-![Ma GIF Backdoor](/images/Ma_GIF_3.png)
+![Ma GIF Backdoor](./images/Ma_GIF_3.png)
 
 
 ### ilovedes
