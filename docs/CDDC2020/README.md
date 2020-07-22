@@ -143,6 +143,9 @@ CDDC20{AAAABBBB-Oh~YouLeakedIt-CCCCDDDD}
 
 ### Visual Noise
 
+![Visual Noise 1](/images/Visual_Noise.png)
+![Visual Noise 2](/images/Visual_Noise_2.png)
+
 Use different image checker.
 [https://www.diffchecker.com/diff](https://www.diffchecker.com/diff)
 
