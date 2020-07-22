@@ -17,7 +17,7 @@ module.exports = {
             disableThemeIgnore: true,
         },
         // Assumes GitHub. Can also be a full GitLab url.
-        repo: 'ISnackable/#',
+        repo: 'ISnackable/CTF-Writeups',
         // Customising the header label
         // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
         repoLabel: 'GitHub',
